@@ -1,28 +1,32 @@
 {
-  "name": "request-header-parser",
-  "version": "1.0.0",
-  "description": "Request Header Parser Microservice",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devNoiseConsulting/Request-Header-Parser.git"
-  },
-  "keywords": [
-    "freecodecamp",
-    "request",
-    "header",
-    "parser"
-  ],
-  "author": "Michael Flynn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devNoiseConsulting/Request-Header-Parser/issues"
-  },
-  "homepage": "https://github.com/devNoiseConsulting/Request-Header-Parser#readme",
-  "dependencies": {
-    "express": "^4.15.0"
-  }
+    "name": "request-header-parser",
+    "version": "1.0.0",
+    "description": "Request Header Parser Microservice",
+    "main": "server.js",
+    "start": "node server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devNoiseConsulting/Request-Header-Parser.git"
+    },
+    "keywords": [
+        "freecodecamp",
+        "request",
+        "header",
+        "parser"
+    ],
+    "author": "Michael Flynn",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devNoiseConsulting/Request-Header-Parser/issues"
+    },
+    "homepage": "https://github.com/devNoiseConsulting/Request-Header-Parser#readme",
+    "dependencies": {
+        "express": "^4.15.0"
+    },
+    "engines": {
+        "node": "6.10.0"
+    }
 }
